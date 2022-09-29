@@ -10,7 +10,9 @@ function suma() {
     let valorsuma = 0;
     valorsuma = a + b;
     document.getElementById("botonsuma").onclick = valorsuma;
-    document.getElementById('result').innerHTML = valorsuma;
+    document.getElementById('result').innerHTML = `<div class="alert alert-success align-self-center"" role="alert">
+    ${valorsuma}</div>`    
+;
     console.log(valorsuma)
 }
 
